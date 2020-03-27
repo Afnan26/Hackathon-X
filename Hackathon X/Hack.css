@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,600');
+
+* { box-sizing: border-box; margin-top: 0; }
+body {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 1.1rem;
+}
+
+
+header {
+  background-color: rgb(rgba(188, 181, 181, 0.105), green, blue);
+
+  background-blend-mode: multiply;
+  background-size: cover;
+  height: 90vh;
+  padding: 1em;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  
+}
+.p{
+  color: white;
+  background-color: (0,0,0,5);
+}
+ 
+.navigation{
+    padding: 5px 0;
+   }
+   .navigation_content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height:100px;
+   }
+   
+   .navigation #logo img {
+    width: 200px;
+   }
+   nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   }
+   .navigation nav a{
+    padding: 0 20px;
+    display: block;
+   
+    color: black;
+    text-decoration: none;
+   }
+   
+   .navigation nav a:last-child{
+    background-color: #cc1414;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+   }
+
+
+footer{
+    width: 100%;
+    height: 90px;
+   
+    
+    position: absolute;
+    bottom: -1;
+} 
+
+footer div {
+    width: 297px;
+    margin: 0 auto;
+   
+    
+
+
+}
+
+footer div ul {
+    list-style: none;
+}
+
+footer div ul li {
+
+   display: inline;
+   margin: 16px 7px 0 0;
+}
+
+footer div ul li a {
+    color: black;
+    font-family: 'consola';
+    font-size: 11pt;
+    text-decoration: none;
+}
+
+footer .copyright p {
+
+    width: 170px;
+    margin: 0 auto;
+    color: black;
+    font-family: 'consola';
+    font-size: 9pt;
+    margin-top: 0px;
+
+
+ }
+
+ footer .copyright p a {
+     text-decoration: none;
+     color: black;
+
+ } 
+
+   
+ 
+
+    
+   
